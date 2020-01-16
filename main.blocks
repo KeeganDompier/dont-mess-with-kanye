@@ -1,0 +1,39 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="BLOCKLY_TILESET_TYPE" id="U]8k`[.,$HW^SY:E6:6l">0;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id="L-i(%gT]|#yNe^0+Cl{G">1;16;16;ffffffffffffffffffffffffffffffffdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd55d55d55dd5d55dd55d55d55dd5d55ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddffffffffffffffffffffffffffffffff</variable><variable type="BLOCKLY_TILESET_TYPE" id="DHS0tY!(3Ssj!oyXCFg(">3;16;16;ffdddd5dd5ddddffffdddd5dd5ddddffddddddddddddddffdddddd5dd5ddddffdddddd5dd5ddddffdddddd5dd5ddddffddddddddddddddff55d5dd55d5ddddff55d5dd55d5ddddffddddddddddddddffddddddddddddddffddddddddddddddffddddddddddddddffddddddddddddddffffffffffffffffffffffffffffffffff</variable><variable type="BLOCKLY_TILESET_TYPE" id="oIPh~mA_ZuC[$RuJg3V2">5;16;16;ffddddddddddddffffddddddddddddffffdddd5dd5ddddffffdddd5dd5ddddffffdddd5dd5ddddffffddddddddddddffffddddddddddddffffdddd5dd5ddddffffdddd5dd5ddddffffdddd5dd5ddddffffddddddddddddffffddddddddddddffffdddd5dd5ddddffffdddd5dd5ddddffffdddd5dd5ddddffffddddddddddddff</variable><variable type="BLOCKLY_TILESET_TYPE" id="mmr35tYlBrL7OCAE5y8H">8;16;16;0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</variable><variable type="BLOCKLY_TILESET_TYPE" id=",IoJ{Q9Je73W)Z(;RZBV">12;16;16;ffffffffffffffffffffffffffffffffddddddddddddddffddddddddddddddffddddddddddddddffddddddddddddddffddddddddddddddffdd55d55dd5ddddffdd55d55dd5ddddffdddddd5dd5ddddffddddddddddddddffddddddddddddddffddddddddddddddffdddddd5dd5ddddffffdddd5dd5ddddffffdddd5dd5ddddff</variable><variable type="BLOCKLY_TILESET_TYPE" id="B9ae!7w{Yu?]`xP);Z5A">13;16;16;ffdddd5dd5ddddffffdddd5dd5ddddffffddddddddddddddffdddd5dd5ddddddffdddd5dd5ddddddffdddd5dd5ddddddffddddddddddddddffdddd5dd5dd55d5ffdddd5dd5dd55d5ffddddddddddddddffddddddddddddddffddddddddddddddffddddddddddddddffddddddddddddddffffffffffffffffffffffffffffffff</variable><variable type="BLOCKLY_TILESET_TYPE" id="Dv6AZ{I=HQ8q3eK+-DQl">14;16;16;ffffffffffffffffffffffffffffffffffddddddddddddddffddddddddddddddffddddddddddddddffddddddddddddddffddddddddddddddffdddd5dd55d55ddffdddd5dd55d55ddffdddd5dd5ddddddffddddddddddddddffddddddddddddddffddddddddddddddffdddd5dd5ddddddffdddd5dd5ddddffffdddd5dd5ddddff</variable></variables><block type="function_definition" x="10" y="-130"><mutation name="Walls" functionid="hB]!CEc,i]2{aE/M/Rn7"/><field name="function_name"/></block><block type="function_definition" x="10" y="16"><mutation name="Tilemap" functionid="KM#{FHTIz@5OF-gQf90_"/><field name="function_name">Tilemap</field><statement name="STACK"><block type="tilemap_editor"><field name="tilemap">tiles.createTilemap(
+            hex`2000200007010101010101010101010101010101010101010101010101010101010101050300040404040404000000000000000000000000000000000000000000000003030004040400000000000000000000000000000000000000000000000000000303000000000000000000000000000000000000000000000000000000000000030300000000000000000000000000000000000000000000000000000000000003030000000000000000000000000000000000000000000000000000000000000303000000000000000000000000000000000000000000000000000000000000030300000000000000000000000000000000000000000000000000000000000003030000000000000000000000000000000000000000000000000000000000000303000000000000000000000000000000000000000000000000000000000000030300000000000000000000000000000000000000000000000000000000000003030000000000000000000000000000000000000000000000000000000000000303000000000000000000000000000000000000000000000000000000000000030300000000000000000000000000000000000000000000000000000000000003030000000000000000000000000000000000000000000000000000000000000303000000000000000000000000000000000000000000000000000000000000030300000000000000000000000000000000000000000000000000000000000003060000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000000000030101010101010101010101010101010101010101010101010101010101010102`,
+            img`
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+`,
+            [myTiles.tile0,myTiles.tile1,myTiles.tile3,myTiles.tile5,myTiles.tile8,myTiles.tile12,myTiles.tile13,myTiles.tile14],
+            TileScale.Sixteen
+        )</field></block></statement></block><block type="function_definition" x="10" y="176"><mutation name="Clout obtainer" functionid="4^U!MugrUTyt9Zr;#*C["/><field name="function_name">Clout obtainer</field></block><block type="pxt-on-start" x="0" y="306"><statement name="HANDLER"><block type="function_call"><mutation name="Tilemap" functionid="KM#{FHTIz@5OF-gQf90_"/></block></statement></block></xml>
