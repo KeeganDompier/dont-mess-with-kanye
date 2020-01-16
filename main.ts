@@ -193,10 +193,28 @@ function Tilemap () {
             TileScale.Sixteen
         ))
 }
+function Clout_obtainer () {
+    mySprite = sprites.create(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+3 3 3 3 3 . . . 3 . . . . . . . 
+3 . . . . . . . . 3 3 . . . . . 
+3 . . . . . . . . . 3 . . . . . 
+3 . . . . . 3 3 3 3 3 . . . . . 
+3 3 3 3 3 3 . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, SpriteKind.Player)
+}
 function Walls () {
 	
 }
-function Clout_obtainer () {
-	
-}
+let mySprite: Sprite = null
 Tilemap()
